@@ -114,7 +114,7 @@ How do they work?
 <div id='B+Tree'/>
 <h3>2. B+ tree</h3>
 
-![image-20220309205617127](/home/dabadav/Documents/GitHub/Report/data/image-20220309205617127.png)
+![image-20220309205617127](Balanced B+ Trees.assets/image-20220309205617127.png)
 
 In a B+-tree, all keys reside in the leaves. 
 
@@ -122,7 +122,7 @@ The upper levels, which are organized as a B-tree, consist only of an index, a r
 
 The following shows the logical separation of the index and key parts. 
 
-![image-20220309210738347](/home/dabadav/Documents/GitHub/Report/data/image-20220309210738347.png)
+![image-20220309210738347](Balanced B+ Trees.assets/image-20220309210738347.png)
 
 Naturally, index nodes and leaf nodes may have different formats or even different sizes. In particular, leaf nodes are usually linked together left-to-right, as shown. The linked list of leaves is referred to as the sequence set. Sequence set links allow easy sequential processing.
 To fully appreciate a B+-tree, one must understand the implications of having an independent index and sequence set. Consider for a moment the find operation. 
@@ -223,7 +223,7 @@ else return NIL
 
 <div id='B+Uses'/>
 <h3>3. Applications of the B+ Tree</h4>
-B+ trees are one of the most popular data structures for databases today. They are used to store and retrieve large amounts of data very quickly.
+Nowadays B+ trees are one of the most popular data structures used for applications such as databases, file systems, and web caches. This is because they have the ability to store large amounts of data in a relatively small space.
 
 
 <div style="page-break-after: always; break-after: page;"></div>
@@ -245,6 +245,8 @@ Finding out these things and seeing how hashing and them are tied together was i
 **Organization and maintenance of large ordered indices; [R. Bayer, E. McCreight](https://infolab.usc.edu/csci585/Spring2010/den_ar/indexing.pdf), July 1970**
 
 **The Ubiquitous B-Tree; [Comer, Douglas](http://carlosproal.com/ir/papers/p121-comer.pdf), June 1979**
+
+**Comparison of Advance Tree Data Structures; [P. Parth, D. Garg](https://arxiv.org/pdf/1209.6495.pdf), March 2012**
 
 **A Novel Space Based Hosting Approach for Ultra Low Latency Web Services; [Dala, Debabrata](https://www.techrxiv.org/ndownloader/files/33448376/1), January 2022**
 
