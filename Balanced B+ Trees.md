@@ -135,23 +135,20 @@ else return NIL
 ```
 <u>**Time Complexity**</u>
 
-
-
 <h4>Insertion</h4>
-
-
 
 <h4>Deletion</h4>
 
-
-
+<br/><br/>
 
 <div id='B+Uses'/>
 <h3>3. Uses of the B+ Tree</h4>
 
+<br/><br/>
+
 <div id='Conclusion'/>
 <h3>4. Conclusion: Thoughts</h4>
+<br/><br/>
 
 <div id='References'/>
 <h3>5. References: Sources of Information</h4>
-
