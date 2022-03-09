@@ -14,13 +14,10 @@
     <br/><br/>
     <br/><br/>
     <br/><br/>
-    <br/><br/>
-    <br/><br/>
-    <br/><br/>
-    <br/><br/>
 	<p>March 2022</p>
 	<p>Dante Aviñó - 106390</p>
 </div>
+
 
 <div style="page-break-after: always; break-after: page;"></div>
 
@@ -45,6 +42,7 @@
 
 <div style="page-break-after: always; break-after: page;"></div>
 
+<br/><br/>
 <br/><br/>
 
 <div id='Introduction'/>
@@ -76,6 +74,7 @@ B-trees have become, de facto, a standard for file organization. File indexes of
 
 <div style="page-break-after: always; break-after: page;"></div>
 
+<br/><br/>
 <br/><br/>
 
 <div id='B+Tree'/>
@@ -171,6 +170,7 @@ else return NIL
 <div style="page-break-after: always; break-after: page;"></div>
 
 <br/><br/>
+<br/><br/>
 
 <div id='B+Uses'/>
 <h3>3. Uses of the B+ Tree</h4>
@@ -179,11 +179,14 @@ B+ trees are one of the most popular data structures for databases today. They a
 <div style="page-break-after: always; break-after: page;"></div>
 
 <br/><br/>
+<br/><br/>
 
 <div id='Conclusion'/>
 <h3>4. Conclusion: Thoughts</h4>
 
 <div style="page-break-after: always; break-after: page;"></div>
+
+<br/><br/>
 <br/><br/>
 
 <div id='References'/>
