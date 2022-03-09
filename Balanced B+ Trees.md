@@ -13,8 +13,10 @@
 <h2> Contents </h2>
 
 ### [1. Introduction](#Introduction)
-### [2. B+ Tree Structure](#B+Structure)
-### [3. B+ Tree Properties](#B+Properties)
+### [2. B+ Tree](#B+Tree)
+#### [2.1. B+ Tree Properties](#B+Properties)
+#### [2.2. B+ Tree Structure](#B+Structure)
+#### [2.3. B+ Tree Operations](#B+Operations)
 
 <div style="page-break-after: always; break-after: page;"></div>
 
@@ -22,7 +24,12 @@
 
 <div id='Introduction'/>
 <h3>1. Introduction </h3>
-The goal of this report is to study and learn from authoritative sources topics related to the course of Algorithms an 
+The goal of this report is to study and learn from authoritative sources topics related to the Algorithms and Data Structures course.
+
+In order to understand what B+ Trees are we first need to talk about some of the history related to this data structure. Why it is created? What problem solves? What was before?
+
+So it's first necessary a bit about to talk about Binary search trees (BST), B-trees and the differences
+
 
 Explain why B-trees are used when the search structure is on disk
 
@@ -30,9 +37,16 @@ The difference is that in B+-trees only leaf nodes contain the actual key values
 
 Routers are entities of the same type as the key values, but they are not the keys stored in the search structure. They are only used to guide the search in the tree. In classical B-trees, the key values are stored in both leaf and non-leaf nodes of the tree.
 
+
+
 <br/><br/>
-<div id='B+Structure'/>
+
+<div id='B+Tree'/>
 <h3>2. B+ tree</h3>
+
+<div id='B+Structure'/>
+<h4>2.1. Structure</h4>
+
 A B+ tree T consists of nodes. One of the nodes is a special node T.root. 
 
 If a node x is a non-leaf node, it has the following fields: 
@@ -66,8 +80,9 @@ where ki is any key or router value in the subtree pointed by the pointer x.ci.
 An example of the non-leaf node containing 5 router values:
 
 <br/><br/>
+
 <div id='B+Properties'/>
-<h3>3. B+ Properties </h3>
+<h4>2.2. B+ Properties </h4>
 
 The B+ tree has to satisfy the following balance conditions: 
 
@@ -87,12 +102,12 @@ Because the B+-tree satisfies the given balance conditions, we can prove that th
 
 where n is the number of the keys stored in the tree.
 
-
 <br/><br/>
-<div id='B+Operations'/>
-<h3>4. B+ Operations</h3>
 
-<h4>Searching</h4>
+<div id='B+Operations'/>
+<h4>2.3. B+ Operations</h4>
+
+<h5>Searching</h5>
 
 ```c++
 BTreeSearch(T,k)
