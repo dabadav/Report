@@ -13,14 +13,18 @@
 <h2> Contents </h2>
 
 - #### [1. Introduction: Overview](#Introduction)
+
 - #### [2. B+ Tree](#B+Tree)
 
   - ##### [2.1. Properties](#B+Properties)
   - ##### [2.2. Structure](#B+Structure)
   - ##### [2.3. Operations](#B+Operations)
 
-- #### [3. Uses of the B+ Tree ](#B+Uses)
-- #### [4. References: Sources of Information](#References)
+- #### [3. Uses of the B+ Tree](#B+Uses)
+
+- #### [4. Conclusion: Thoughts](#Conclusion)
+
+- #### [5. References: Sources of Information](#References)
 
 <div style="page-break-after: always; break-after: page;"></div>
 
@@ -142,4 +146,12 @@ else return NIL
 
 
 
+<div id='B+Uses'/>
+<h3>3. Uses of the B+ Tree</h4>
+
+<div id='Conclusion'/>
+<h3>4. Conclusion: Thoughts</h4>
+
+<div id='References'/>
+<h3>5. References: Sources of Information</h4>
 
