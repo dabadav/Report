@@ -1,18 +1,30 @@
 <br/><br/>
-
+<br/><br/>
+<br/><br/>
+<br/><br/>
+    
 <div style="text-align: center;">
     <h1>Balanced B+ Trees</h1>
 	<h3>Algorithms and Data Structures Report</h3>
-	<h5>Degree in Bioinformatics, UPF</h5>
+    <h5>Degree in Bioinformatics, UPF</h5>
     <br/><br/>
     <br/><br/>
-    <p>March 2022</p>
+	<br/><br/>
+	<br/><br/>
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
+	<p>March 2022</p>
 	<p>Dante Aviñó - 106390</p>
 </div>
 
-
 <div style="page-break-after: always; break-after: page;"></div>
 
+<br/><br/>
 <br/><br/>
 
 <h2> Contents </h2>
