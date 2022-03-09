@@ -47,6 +47,18 @@ Routers are entities of the same type as the key values, but they are not the ke
 
 
 
+
+
+Binary Search Trees:
+
+Search trees are data structures that support many dynamic-set operations, including SEARCH, MINIMUM, MAXIMUM, PREDECESSOR, SUCCESSOR, INSERT, and DELETE. Thus, a search tree can be used both as a dictionary and as a priority queue.
+
+B-trees:
+
+B-trees have become, de facto, a standard for file organization. File indexes of users, dedicated database systems, and general-purpose access methods have all been proposed and nnplemented using B-trees
+
+<div style="page-break-after: always; break-after: page;"></div>
+
 <br/><br/>
 
 <div id='B+Tree'/>
@@ -139,16 +151,32 @@ else return NIL
 
 <h4>Deletion</h4>
 
+<div style="page-break-after: always; break-after: page;"></div>
+
 <br/><br/>
 
 <div id='B+Uses'/>
 <h3>3. Uses of the B+ Tree</h4>
+B+ trees are one of the most popular data structures for databases today. They are used to store and retrieve large amounts of data very quickly.
+
+<div style="page-break-after: always; break-after: page;"></div>
 
 <br/><br/>
 
 <div id='Conclusion'/>
 <h3>4. Conclusion: Thoughts</h4>
+
+<div style="page-break-after: always; break-after: page;"></div>
 <br/><br/>
 
 <div id='References'/>
 <h3>5. References: Sources of Information</h4>
+
+**Introduction to algorithms; [Thomas H. Cormen](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf), 3rd Edition (2009)**
+
+**Organization and maintenance of large ordered indices; [R. Bayer, E. McCreight](https://infolab.usc.edu/csci585/Spring2010/den_ar/indexing.pdf), July 1970**
+
+**The Ubiquitous B-Tree; [Comer, Douglas](http://carlosproal.com/ir/papers/p121-comer.pdf), June 1979**
+
+**2-3 and B-Trees; [Shankha, Amartya](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/recitation-videos/recitation-2-b-trees), March 2016**
+
