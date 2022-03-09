@@ -12,11 +12,15 @@
 
 <h2> Contents </h2>
 
-### [1. Introduction](#Introduction)
-### [2. B+ Tree](#B+Tree)
-#### [2.1. B+ Tree Properties](#B+Properties)
-#### [2.2. B+ Tree Structure](#B+Structure)
-#### [2.3. B+ Tree Operations](#B+Operations)
+- #### [1. Introduction: Overview](#Introduction)
+- #### [2. B+ Tree](#B+Tree)
+
+  - ##### [2.1. Properties](#B+Properties)
+  - ##### [2.2. Structure](#B+Structure)
+  - ##### [2.3. Operations](#B+Operations)
+
+- #### [3. Uses of the B+ Tree ](#B+Uses)
+- #### [4. References: Sources of Information](#References)
 
 <div style="page-break-after: always; break-after: page;"></div>
 
