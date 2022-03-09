@@ -22,9 +22,6 @@
 
 <div style="page-break-after: always; break-after: page;"></div>
 
-<br/><br/>
-<br/><br/>
-
 <h2> Contents </h2>
 
 - #### [1. Introduction: Overview](#Introduction)
@@ -44,9 +41,6 @@
 - #### [5. References: Sources of Information](#References)
 
 <div style="page-break-after: always; break-after: page;"></div>
-
-<br/><br/>
-<br/><br/>
 
 <div id='Introduction'/>
 <h3>1. Introduction </h3>
@@ -116,9 +110,6 @@ How do they work?
 - general B-trees are not common, but a little variant, B+ trees, is heavily used by many DBMS’s for index creation. 
 
 <div style="page-break-after: always; break-after: page;"></div>
-
-<br/><br/>
-<br/><br/>
 
 <div id='B+Tree'/>
 <h3>2. B+ tree</h3>
@@ -230,30 +221,21 @@ else return NIL
 
 <div style="page-break-after: always; break-after: page;"></div>
 
-<br/><br/>
-<br/><br/>
-
 <div id='B+Uses'/>
-<h3>3. Uses of the B+ Tree</h4>
+<h3>3. Applications of the B+ Tree</h4>
 B+ trees are one of the most popular data structures for databases today. They are used to store and retrieve large amounts of data very quickly.
 
-<div style="page-break-after: always; break-after: page;"></div>
 
-<br/><br/>
-<br/><br/>
+<div style="page-break-after: always; break-after: page;"></div>
 
 <div id='Conclusion'/>
 <h3>4. Conclusion: Thoughts</h4>
 In a nutshell, in this report has been very interesting to perform, see and explore. 
-
 Whether you’re interested in how exactly people get rich by mining bitcoin to do so yourself or you’re
 simply curious to know about database security structure and how exactly you are identified on your accounts, the answer to that is to understand the various concepts that hashing revolves around.
-Finding out these things and seeing how hashing and them are tied together was interesting and dynamic to explore and learn about, as many of these are things we observe and interact with every other day and we never really stop to give them any thought. By doing so, we learnt some more about hashing and in turn about the world we live in, and that which surrounds us.
+Finding out these things and seeing how hashing and them are tied together was interesting and dynamic to explore and learn about, as many of these are things we observe and interact with every other day and we never really stop to give them any thought. By doing so, we learnt some more about this very special data structure and in turn about the world we live in, and that which surrounds us.
 
 <div style="page-break-after: always; break-after: page;"></div>
-
-<br/><br/>
-<br/><br/>
 
 <div id='References'/>
 <h3>5. References: Sources of Information</h4>
