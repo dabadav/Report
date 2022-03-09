@@ -111,8 +111,42 @@ How do they work?
 
 <div style="page-break-after: always; break-after: page;"></div>
 
+<br/><br/>
+<br/><br/>
+
+
+
+<div id='B-Tree'/>
+<h3>2. B-tree data structure</h3>
+
+<div id='Overview'/>
+<h4>2.1. Overview</h4>
+
+B-tree  structures were first defined in a paper titled 'ORGANIZATION AND MAINTENANCE OF LARGE  ORDERED INDICES' by R. Bayer and E. McCreight published in Mathematical and Information Sciences Report No. 20,  July 1970
+
+They were intended to solve the problem of organizing and maintaining an index structure for dynamic randomly accessed file system, given the following constraint: the index structure was much larger than the capacity of the working memory, and therefore the bulk of the index was kept in a sequential access device, index entries were retrieved in chunks of data called pages from the slow sequential/pseudo-random devices. B-Trees  allowed to efficiently gather, insert and delete data, with a logarithmic execution time.
+
+B-trees have become the de facto standard for file index organization. Moreover, indexes for users, dedicated database systems, and general-purpose access methods have all been proposed and implemented using B-trees
+
+There are, of course, many competitive schemes for organizing an index, e.g., hash-coding. However, for a large class of applications B-Tree offers significant advantages over others:
+
+- Storage is committed as the file grows and released as it shrinks, and there is no performance degradation as storage fills up. 
+- It preserves the natural order of the keys and allows processing based on that order like, find predecessors and  successors; search the file sequentially to answer queries;  skip, delete, retrieve a number of records starting from a  glven key.  
+- It provides a very efficient sequential processing of the index by presorting the transactions based on their keys.
+
+
+
+
+Binary tree is the special type of general tree. **Unlike B-tree, in a binary tree a node can have at most two nodes**.
+
+
+
+Binary Search Trees:
+
+Search trees are data structures that support many dynamic-set operations, including SEARCH, MINIMUM, MAXIMUM, PREDECESSOR, SUCCESSOR, INSERT, and DELETE. Thus, a search tree can be used both as a dictionary and as a priority queue.
+
 <div id='B+Tree'/>
-<h3>2. B+ tree</h3>
+<h3>3. B+ tree</h3>
 
 ![image-20220309205617127](Balanced B+ Trees.assets/image-20220309205617127.png)
 
@@ -133,7 +167,7 @@ During deletion in a B+-tree, the ability to leave non-key values in the index p
 remains at least half full, the index need not be changed, even if a copy of the key had been propagated up into it. Figure 14 shows how the copy of a deleted key can still direct searches to the correct leaf. Of course, if an underflow condition arises, the redistribution or concatenation procedures may require adjusting values in the index as well as in the leaves. Insertion and find operations in a B÷-tree are processed almost identically to insertion and find operations in a B-tree. When a leaf splits in two, instead of promoting the middle key, the algorithm promotes a copy of the key, retaining the actual key in the right leaf. Find operations differ from those in a B-tree in that searching does not stop if a key in the index equals the query value. Instead, the nearest right pointer is followed, and the search proceeds all the way to a leaf. We have seen that B-trees, which support low-cost find, insert, and delete operations, may require logdn accesses to secondary storage to process a next operation. The B÷-tree implementation retains the ogarithmic cost properties for operations by key, but gains the advantage of requiring at most 1 access to satisfy a next operation. Moreover, during the sequential processing of a file, no node will be accessed more than once, so space for only 1 node need be available in main memory. Thus, B+ trees are well suited to applications which entail both random and sequential processing
 
 <div id='B+Structure'/>
-<h4>2.1. Structure</h4>
+<h4>3.1. Structure</h4>
 
 A B+ tree T consists of nodes. One of the nodes is a special node T.root. 
 
@@ -170,7 +204,7 @@ An example of the non-leaf node containing 5 router values:
 <br/><br/>
 
 <div id='B+Properties'/>
-<h4>2.2. B+ Properties </h4>
+<h4>3.2. B+ Properties </h4>
 
 The B+ tree has to satisfy the following balance conditions: 
 
@@ -193,7 +227,7 @@ where n is the number of the keys stored in the tree.
 <br/><br/>
 
 <div id='B+Operations'/>
-<h4>2.3. B+ Operations</h4>
+<h4>3.3. B+ Operations</h4>
 
 <h5>Searching</h5>
 
@@ -222,15 +256,24 @@ else return NIL
 <div style="page-break-after: always; break-after: page;"></div>
 
 <div id='B+Uses'/>
+<<<<<<< HEAD
 <h3>3. Applications of the B+ Tree</h4>
 Nowadays B+ trees are one of the most popular data structures used for applications such as databases, file systems, and web caches. This is because they have the ability to store large amounts of data in a relatively small space.
+=======
+<h3>4. Uses of the B+ Tree</h4>
+B+ trees are one of the most popular data structures for databases today. They are used to store and retrieve large amounts of data very quickly.
+>>>>>>> ab62cc1d563fb8768f0c6617692e5e156a3898b6
 
 
 <div style="page-break-after: always; break-after: page;"></div>
 
+<div style="page-break-after: always; break-after: page;"></div>
+
 <div id='Conclusion'/>
-<h3>4. Conclusion: Thoughts</h4>
+<h3>5. Conclusion: Thoughts</h4>
 In a nutshell, in this report has been very interesting to perform, see and explore. 
+
+
 Whether you’re interested in how exactly people get rich by mining bitcoin to do so yourself or you’re
 simply curious to know about database security structure and how exactly you are identified on your accounts, the answer to that is to understand the various concepts that hashing revolves around.
 Finding out these things and seeing how hashing and them are tied together was interesting and dynamic to explore and learn about, as many of these are things we observe and interact with every other day and we never really stop to give them any thought. By doing so, we learnt some more about this very special data structure and in turn about the world we live in, and that which surrounds us.
@@ -238,7 +281,8 @@ Finding out these things and seeing how hashing and them are tied together was i
 <div style="page-break-after: always; break-after: page;"></div>
 
 <div id='References'/>
-<h3>5. References: Sources of Information</h4>
+<h3>6. References: Sources of Information</h4>
+
 
 **Introduction to algorithms; [Thomas H. Cormen](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf), 3rd Edition (2009)**
 
