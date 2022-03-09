@@ -10,7 +10,8 @@
 <br/><br/>
 <br/><br/>
 
-<h2> Index </h2>
+<h2> Contents </h2>
+
 ### [1. Introduction](#Introduction)
 ### [2. B+ Tree Structure](#B+Structure)
 ### [3. B+ Tree Properties](#B+Properties)
@@ -18,8 +19,11 @@
 <div style="page-break-after: always; break-after: page;"></div>
 
 <br/><br/>
+
 <div id='Introduction'/>
 <h3>1. Introduction </h3>
+The goal of this report is to study and learn from authoritative sources topics related to the course of Algorithms an 
+
 Explain why B-trees are used when the search structure is on disk
 
 The difference is that in B+-trees only leaf nodes contain the actual key values. The nonleaf nodes of the B+-trees contain router values.
@@ -110,10 +114,13 @@ else return NIL
 
 
 
-
-
 <h4>Insertion</h4>
 
 
 
 <h4>Deletion</h4>
+
+
+
+
+
