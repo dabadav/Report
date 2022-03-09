@@ -123,6 +123,8 @@ How do they work?
 <div id='B+Tree'/>
 <h3>2. B+ tree</h3>
 
+![image-20220309205617127](/home/dabadav/Documents/GitHub/Report/data/image-20220309205617127.png)
+
 <div id='B+Structure'/>
 <h4>2.1. Structure</h4>
 
