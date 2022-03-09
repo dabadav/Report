@@ -125,6 +125,22 @@ How do they work?
 
 ![image-20220309205617127](/home/dabadav/Documents/GitHub/Report/data/image-20220309205617127.png)
 
+In a B+-tree, all keys reside in the leaves. 
+
+The upper levels, which are organized as a B-tree, consist only of an index, a roadmap to enable rapid location of the index and key parts. 
+
+The following shows the logical separation of the index and key parts. 
+
+![image-20220309210738347](/home/dabadav/Documents/GitHub/Report/data/image-20220309210738347.png)
+
+Naturally, index nodes and leaf nodes may have different formats or even different sizes. In particular, leaf nodes are usually linked together left-to-right, as shown. The linked list of leaves is referred to as the sequence set. Sequence set links allow easy sequential processing.
+To fully appreciate a B+-tree, one must understand the implications of having an independent index and sequence set. Consider for a moment the find operation. 
+
+Searching proceeds from the root of a B+ tree through the index to a leaf. Since all keys reside in the leaves, it does not matter what values are encountered as the search progresses as long as the path leads to the correct leaf.
+
+During deletion in a B+-tree, the ability to leave non-key values in the index part as separators simplifies  processing. The key to be deleted must always reside in a leaf so its removal is simple. As long as the leaf
+remains at least half full, the index need not be changed, even if a copy of the key had been propagated up into it. Figure 14 shows how the copy of a deleted key can still direct searches to the correct leaf. Of course, if an underflow condition arises, the redistribution or concatenation procedures may require adjusting values in the index as well as in the leaves. Insertion and find operations in a B÷-tree are processed almost identically to insertion and find operations in a B-tree. When a leaf splits in two, instead of promoting the middle key, the algorithm promotes a copy of the key, retaining the actual key in the right leaf. Find operations differ from those in a B-tree in that searching does not stop if a key in the index equals the query value. Instead, the nearest right pointer is followed, and the search proceeds all the way to a leaf. We have seen that B-trees, which support low-cost find, insert, and delete operations, may require logdn accesses to secondary storage to process a next operation. The B÷-tree implementation retains the ogarithmic cost properties for operations by key, but gains the advantage of requiring at most 1 access to satisfy a next operation. Moreover, during the sequential processing of a file, no node will be accessed more than once, so space for only 1 node need be available in main memory. Thus, B+ trees are well suited to applications which entail both random and sequential processing
+
 <div id='B+Structure'/>
 <h4>2.1. Structure</h4>
 
